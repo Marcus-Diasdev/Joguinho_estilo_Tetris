@@ -8,7 +8,7 @@ pygame.init()
 pygame.mixer.init()
 
 # 2. Configurações da Tela
-LARGURA = 600
+LARGURA = 500
 ALTURA = 800
 flags_da_tela = pygame.FULLSCREEN | pygame.SCALED
 TELA = pygame.display.set_mode((LARGURA, ALTURA), flags_da_tela)
